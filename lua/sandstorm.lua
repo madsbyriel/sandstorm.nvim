@@ -72,26 +72,40 @@ Sandstorm.config = vim.deepcopy(default_config)
 
 -- main sandstorm color palette
 ---@class SandstormPalette
+
+-- @define-color dark_sand #4e2918;
+-- @define-color light_sand #e1b39d;
+-- @define-color light_sandn #dba48a;
+-- @define-color medium_sand #c3673c;
+-- @define-color yellow #ffff00; # for debugging!
+-- @define-color dark_red #cc0000;
+-- @define-color dark_green #336600;
+-- @define-color teal #008080;
+
 Sandstorm.palette = {
-  dark0_hard = "#1d2021",
-  dark0 = "#282828",
-  dark0_soft = "#32302f",
-  dark1 = "#3c3836",
-  dark2 = "#504945",
-  dark3 = "#665c54",
-  dark4 = "#7c6f64",
-  light0_hard = "#f9f5d7",
+  dark0 = "#e1b39d",            -- background color
+  dark1 = "#d59476",            -- lualine bar / sidebar
+  dark2 = "#c9764f",            -- 
+  dark3 = "#b05c36",            -- visual mode highlight
+  dark4 = "#89482a",
+
   light0 = "#fbf1c7",
-  light0_soft = "#f2e5bc",
-  light1 = "#ebdbb2",
+  light1 = "#ebdbb2",           -- variable names
   light2 = "#d5c4a1",
   light3 = "#bdae93",
   light4 = "#a89984",
-  bright_red = "#fb4934",
-  bright_green = "#b8bb26",
-  bright_yellow = "#fabd2f",
-  bright_blue = "#83a598",
-  bright_purple = "#d3869b",
+
+  dark0_hard = "#1d2021",
+  dark0_soft = "#32302f",
+  
+  light0_soft = "#f2e5bc",
+  light0_hard = "#f9f5d7",
+
+  bright_red = "#fb4934",       -- keywords
+  bright_green = "#b8bb26",     -- method calls, strings?
+  bright_yellow = "#fabd2f",    -- types
+  bright_blue = "#83a598",      -- field names, properties
+  bright_purple = "#d3869b",    -- number color, also enums
   bright_aqua = "#8ec07c",
   bright_orange = "#fe8019",
   neutral_red = "#cc241d",
@@ -126,7 +140,7 @@ Sandstorm.palette = {
   light_aqua_hard = "#e6e9c1",
   light_aqua = "#e8e5b5",
   light_aqua_soft = "#e1dbac",
-  gray = "#928374",
+  gray = "#928374", -- comments!
 }
 
 -- get a hex list of sandstorm colors based on current bg and constrast config
