@@ -101,11 +101,11 @@ Sandstorm.palette = {
   light0_soft = "#f2e5bc",
   light0_hard = "#f9f5d7",
 
-  bright_red = "#fb4934",       -- keywords
-  bright_green = "#b8bb26",     -- method calls, strings?
-  bright_yellow = "#fabd2f",    -- types
-  bright_blue = "#83a598",      -- field names, properties
-  bright_purple = "#d3869b",    -- number color, also enums
+  bright_red = "#801a00",       -- keywords
+  bright_green = "#00802b",     -- method calls, strings?
+  bright_yellow = "#ae7b04",    -- types
+  bright_blue = "#008080",      -- field names, properties
+  bright_purple = "#800080",    -- number color, also enums
   bright_aqua = "#8ec07c",
   bright_orange = "#fe8019",
   neutral_red = "#cc241d",
