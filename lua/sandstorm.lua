@@ -89,11 +89,11 @@ Sandstorm.palette = {
   dark3 = "#b05c36",            -- visual mode highlight
   dark4 = "#89482a",
 
-  light0 = "#fbf1c7",
-  light1 = "#ebdbb2",           -- variable names
-  light2 = "#d5c4a1",
-  light3 = "#bdae93",
-  light4 = "#a89984",
+  light0 = "#4e2918",
+  light1 = "#3b1f12",           -- variable names
+  light2 = "#27150c",
+  light3 = "#140a06",
+  light4 = "#000000",
 
   dark0_hard = "#1d2021",
   dark0_soft = "#32302f",
